@@ -36,7 +36,7 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
         lt: layer_tap {
-            quick-tap-ms = <150>;
+            quick-tap-ms = <250>;
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
