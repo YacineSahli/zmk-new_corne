@@ -35,14 +35,14 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        &lt {
+        lt: layer_tap {
             quick-tap-ms = <150>;
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
-            display-name = "My-Layer-Tap";
+            display-name = "Layer-Tap";
         };
     };
 
