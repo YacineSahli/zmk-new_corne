@@ -26,7 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-
 / {
     behaviors {
         td0: td0 {
@@ -35,6 +34,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
         lt: layer_tap {
             quick-tap-ms = <250>;
             compatible = "zmk,behavior-hold-tap";
@@ -42,6 +42,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
+
             display-name = "Layer-Tap";
         };
     };
@@ -74,7 +75,7 @@
 
             // sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
 
-            sensor-bindings = <&inc_dec_kp N2 N1>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Number {
