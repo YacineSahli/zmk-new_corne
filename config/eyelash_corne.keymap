@@ -81,10 +81,10 @@
         Number {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                                         &mmv MOVE_UP                     &kp N6   &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp EQUAL
-&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &trans
-                                          &trans           &trans           &trans                                                                          &kp INS  &kp DEL       &trans
+&trans      &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                                         &mmv MOVE_UP                     &kp N6   &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp EQUAL
+&trans      &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &bt BT_CLR_ALL
+                                              &trans           &trans           &trans                                                                          &kp INS  &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
